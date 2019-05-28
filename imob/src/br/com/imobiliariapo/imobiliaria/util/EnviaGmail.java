@@ -24,7 +24,7 @@ public class EnviaGmail {
 	static Session getMailSession;
 	static MimeMessage generateMailMessage;
  
-	
+	/*envio de email*/
 	
 	public void enviaEmail(List<String> destinatarios, List<String> copiados, String assunto, String mensagem) throws AddressException, MessagingException {
 		 
