@@ -12,7 +12,11 @@ import javax.faces.validator.ValidatorException;
 public class EmailValidator implements Validator{
 
 
-
+/*
+ * 
+ * classe para validação de emails
+ * 
+ * */
 
 
 public void validate(FacesContext facesContext, UIComponent uIComponent, Object object) throws ValidatorException 
