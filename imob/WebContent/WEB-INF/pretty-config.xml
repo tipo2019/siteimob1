@@ -1,0 +1,81 @@
+<pretty-config xmlns="http://ocpsoft.org/schema/rewrite-config-prettyfaces" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://ocpsoft.org/schema/rewrite-config-prettyfaces
+                      http://ocpsoft.org/xml/ns/prettyfaces/rewrite-config-prettyfaces.xsd">
+
+	<url-mapping id="index">
+		<pattern value="/" />
+		<view-id value="/site.jsf" />
+	</url-mapping>
+	
+	
+	
+	<url-mapping id="filt">
+		<pattern value="/filtro" />
+		<view-id value="/filter.jsf" />
+	</url-mapping>
+	
+	
+
+
+	
+	
+	<url-mapping id="detalhes">
+		<pattern value="/detalhes" />
+		<view-id value="/detalhes.jsf" />
+	</url-mapping>
+	
+	<url-mapping id="detalhes-mathias">
+		<pattern value="/carlos-fernando-mathias" />
+		<view-id value="/detalhes.jsf?cod=5" />
+	</url-mapping>
+	
+	<url-mapping id="detalhes-bione">
+		<pattern value="/marcilio-bione" />
+		<view-id value="/detalhes.jsf?cod=6" />
+	</url-mapping>
+	
+	
+	<url-mapping id="detalhes-chagas">
+		<pattern value="/carlos-chagas" />
+		<view-id value="/detalhes.jsf?cod=7" />
+	</url-mapping>
+	
+	<url-mapping id="detalhes-brennand">
+		<pattern value="/brennand" />
+		<view-id value="/detalhes.jsf?cod=11" />
+	</url-mapping>
+	
+	
+	<url-mapping id="detalhes-baeta">
+		<pattern value="/henrique-baeta" />
+		<view-id value="/detalhes.jsf?cod=8" />
+	</url-mapping>
+	
+	
+	<url-mapping id="detalhes-bettiol">
+		<pattern value="/betty-bettiol" />
+		<view-id value="/detalhes.jsf?cod=9" />
+	</url-mapping>
+	
+	
+	<url-mapping id="detalhes-cotrim">
+		<pattern value="/marcio-cotrim" />
+		<view-id value="/detalhes.jsf?cod=2" />
+	</url-mapping>
+	
+	
+	<url-mapping id="filt-norte">
+		<pattern value="/asa-norte" />
+		<view-id value="/filter.jsf?bairro=1" />
+	</url-mapping>
+	
+	
+	
+	<url-mapping id="filt-aclaras">
+		<pattern value="/aguas-claras" />
+		<view-id value="/filter.jsf?bairro=3" />
+	</url-mapping>
+	
+	
+</pretty-config>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config version="2.1" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xi="http://www.w3.org/2001/XInclude"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_1.xsd">
+ <converter>
+  <converter-id>tipounidadeConverter</converter-id>
+  <converter-class>br.com.primeinformatica.imoveis.util.TipoUnidadeConverter</converter-class>
+ </converter>
+ <converter>
+  <converter-id>tipoempreendimentoConverter</converter-id>
+  <converter-class>br.com.primeinformatica.imoveis.util.TipoEmpreendimentoConverter</converter-class>
+ </converter>
+ <converter>
+  <converter-id>faseConverter</converter-id>
+  <converter-class>br.com.primeinformatica.imoveis.util.FaseConverter</converter-class>
+ </converter>
+ <converter>
+  <converter-id>bairroConverter</converter-id>
+  <converter-class>br.com.primeinformatica.imoveis.util.BairroConverter</converter-class>
+ </converter>
+ <converter>
+  <converter-id>cidadeConverter</converter-id>
+  <converter-class>br.com.primeinformatica.imoveis.util.CidadeConverter</converter-class>
+ </converter>
+ <converter>
+  <converter-id>caracteristicaConverter</converter-id>
+  <converter-class>br.com.primeinformatica.imoveis.util.CaracteristicasConverter</converter-class>
+ </converter>
+ <validator>
+  <validator-id>emailValidator</validator-id>
+  <validator-class>br.com.primeinformatica.imoveis.util.EmailValidator</validator-class>
+ </validator>
+</faces-config>
