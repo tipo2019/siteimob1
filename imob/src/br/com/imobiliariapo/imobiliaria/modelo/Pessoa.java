@@ -342,7 +342,7 @@ public class Pessoa implements Serializable {
 	public void setOrg_exp_rg_conj(String org_exp_rg_conj) {
 		this.org_exp_rg_conj = org_exp_rg_conj;
 	}
-/*teste*/
+/*atual*/
 	public String getDt_exp_rg_conj() {
 		return dt_exp_rg_conj;
 	}
