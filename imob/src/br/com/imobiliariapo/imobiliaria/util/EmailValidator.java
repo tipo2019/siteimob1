@@ -30,6 +30,7 @@ public void validate(FacesContext facesContext, UIComponent uIComponent, Object 
         if (matcher.matches()) {
             isEmailIdValid = true;
         }
+        ///comentario
     }
     if (!isEmailIdValid) {
         FacesMessage message = new FacesMessage();
