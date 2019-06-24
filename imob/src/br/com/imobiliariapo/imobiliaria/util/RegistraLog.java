@@ -23,7 +23,7 @@ public class RegistraLog implements Serializable{
 			//usuarioLogado = new VerificaPermissao().getUsuarioLogado();
 	}
 	
-	
+	//oi
 	
 	
 	
